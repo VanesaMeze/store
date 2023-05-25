@@ -33,7 +33,7 @@ const AppProducts = ({
         />
         <button
           onClick={(e) => handleSearch(e, state.search)}
-          className="btn btn-outline-success"
+          className="btn btn-outline-dark"
           type="submit"
         >
           Search
@@ -57,7 +57,7 @@ const AppProducts = ({
               <td style={{ width: "10px" }}>
                 <button
                   onClick={() => addQuantity(index)}
-                  className="btn btn-outline-light"
+                  className="btn btn-outline-dark"
                 >
                   +
                 </button>
@@ -68,7 +68,7 @@ const AppProducts = ({
               <td style={{ width: "10px" }}>
                 <button
                   onClick={() => decreaseQuantity(index)}
-                  className="btn btn-outline-light"
+                  className="btn btn-outline-dark"
                 >
                   -
                 </button>

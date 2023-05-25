@@ -57,17 +57,14 @@ const AppCustomers = ({ customers, onRemove }) => {
             <td>{customer.lastName}</td>
             <td>{customer.date_of_birth}</td>
             <td>
-              <Link
-                className="btn btn-outline-light"
-                to={`/customers/${index}`}
-              >
+              <Link className="btn btn-outline-dark" to={`/customers/${index}`}>
                 App Purchases
               </Link>
             </td>
             <td>
               <button
                 onClick={() => onRemove(customer.firstName)}
-                className="btn btn-outline-light"
+                className="btn btn-outline-dark"
               >
                 Remove
               </button>

@@ -55,7 +55,7 @@ const AddCustomer = ({ handleSubmit }) => {
       </div>
       <br></br>
       <hr></hr>
-      <button className="btn btn-outline-light" type="submit">
+      <button className="btn btn-outline-dark" type="submit">
         <Link className="nav-link active" to={`/customers`}>
           Create
         </Link>
