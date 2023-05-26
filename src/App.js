@@ -6,6 +6,7 @@ import CustomerPurchase from "./pages/CustomerPurchase";
 import Customers from "./pages/Customers";
 import Products from "./pages/Products";
 import AddCustomers from "./pages/AddCustomers";
+import BuyProducts from "./pages/BuyProduct";
 
 const listOfCustomers = [
   {
@@ -128,6 +129,12 @@ function App() {
     setCustomers((prevState) => (prevState = [...prevState, newCustomer]));
   };
 
+  const handleChange = ({ target }) => {
+    this.setCustomers({
+      selectedOption: target.customers,
+    });
+  };
+
   return (
     <Routes>
       <Route path="/" element={<Welcome />}></Route>
@@ -153,6 +160,12 @@ function App() {
       <Route
         path="customers/:id"
         element={<CustomerPurchase customers={customers} />}
+      ></Route>
+      <Route
+        path="products/:id"
+        element={
+          <BuyProducts products={products} handleChange={handleChange} />
+        }
       ></Route>
     </Routes>
   );

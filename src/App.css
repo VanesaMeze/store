@@ -52,7 +52,7 @@ body {
   text-shadow: 2px 2px 4px #27292a;
   letter-spacing: 10px;
   cursor: pointer;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Georgia, "Times New Roman", Times, serif;
   position: absolute;
   top: 50%;
   bottom: 0;
@@ -61,6 +61,87 @@ body {
   width: 80%;
   height: 30%;
   margin: auto;
+}
+
+.h2 {
+  text-align: center;
+  white-space: nowrap;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  top: 10%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 80%;
+  height: 30%;
+  margin: auto;
+}
+
+.text {
+  text-align: center;
+  white-space: nowrap;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  font-size: large;
+  top: 20%;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  width: 80%;
+  height: 30%;
+  margin: auto;
+}
+
+.mb-3 {
+  text-align: center;
+  white-space: nowrap;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  top: 30%;
+  bottom: 30%;
+  left: 0;
+  right: 0;
+  width: 80%;
+  height: 30%;
+  margin: auto;
+}
+
+.col-md-5 {
+  text-align: center;
+  white-space: nowrap;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+  position: absolute;
+  top: 55%;
+  bottom: 40%;
+  left: 0;
+  right: 0;
+  width: 80%;
+  height: 30%;
+  margin: auto;
+}
+
+.btns {
+  justify-content: space-between;
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  right: 50%;
+  width: 40%;
+  height: auto;
+  margin: auto;
+}
+
+.p-3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .footer {
@@ -72,6 +153,7 @@ body {
   width: 70%;
   color: rgb(109, 109, 109);
   margin: auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 input {
@@ -81,7 +163,7 @@ input {
   padding: 3px 5px;
   box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1);
   width: 190px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .button {
@@ -95,6 +177,28 @@ input {
 }
 
 .label {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1cm;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: xx-large;
+}
+
+.table {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.form {
+  text-align: center;
+  white-space: nowrap;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px #27292a;
+  letter-spacing: 10px;
+  cursor: pointer;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 80%;
+  height: 30%;
+  margin: auto;
 }

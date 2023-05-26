@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const AppProducts = ({
   products,
@@ -72,6 +73,14 @@ const AppProducts = ({
                 >
                   -
                 </button>
+              </td>
+              <td>
+                <Link
+                  className="btn btn-outline-dark"
+                  to={`/products/${index}`}
+                >
+                  Buy
+                </Link>
               </td>
             </tr>
           ))}
