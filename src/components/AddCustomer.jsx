@@ -56,7 +56,11 @@ const AddCustomer = ({ handleSubmit }) => {
       <br></br>
       <hr></hr>
       <button className="btn btn-outline-dark" type="submit">
-        <Link className="nav-link active" to={`/customers`}>
+        <Link
+          to={`/customers`}
+          onClick={(event) => handleSubmit(event, state)}
+          className="nav-link active"
+        >
           Create
         </Link>
       </button>
